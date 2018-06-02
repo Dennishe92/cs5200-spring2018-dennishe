@@ -19,6 +19,7 @@ public class HelloController {
 		return obj;
 		}
 	
+	//hello
 	@RequestMapping("/api/hello/insert/{msg}")
 	public HelloObject insertMessage(@PathVariable("msg") String message) {	
 		HelloObject obj = new HelloObject(message);
